@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.container .moto{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container .moto{
+    margin: 50px 20px;
+    width: 450px;
+    height: 600px;
+}
+.container .moto .image img{
+    width: 450px;
+}
+.container .moto .name h1{
+    color: rgb(6, 63, 120);
+}
+.container .moto .name{
+    margin: 15px 15px;
+}
+.container .moto .info{
+    margin: 0 15px;
+    color: gray;
+}
+.container .moto .button{
+    display: flex;
+    margin: 4px 2px;
+    border: none;
+    padding: 15px 32px;
+    
+}
+.container .moto .button .demo button{
+    background-color: rgb(6, 63, 120);
+    color: white;
+    padding: 5px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 8px;
+}
+.container .moto .button .download button{
+    background-color: rgb(6, 63, 120);
+    color: white;
+    padding: 5px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 8px;
+}
+.container .moto .button .buy button{
+    background-color: rgb(26, 160, 26);
+    color: white;
+    padding: 5px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 8px;
+
+}
+.container .moto .button .download{
+    color: rgb(20, 20, 111);
+}
